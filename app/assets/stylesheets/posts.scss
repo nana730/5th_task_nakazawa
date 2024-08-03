@@ -1,0 +1,53 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@charset "UTF-8";
+
+// li {
+//   display: flex;
+//   font-size: 1.25rem;
+//   list-style: none;
+//   font-family: "Roboto Mono", monospace;
+// }
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  text-decoration: none;
+  border-radius: 50%;
+  width: 60px;
+  margin-top: 5px;
+}
+img:hover {
+  filter: brightness(90%);
+}
+.nav {
+  margin-top: 60px;
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.25rem;
+}
+
+.nav li {
+  margin-left: 10px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+footer {
+  background: aqua;
+  text-align: center;
+  padding: 5px 0;
+}
+
+footer p {
+    font-family: "Roboto Mono", monospace;
+  }
